@@ -11,5 +11,5 @@ Estimated costs for five pcbs (105 led boards) as of March 2021:
 <tr><td>SMT Discount</td><td>-$7</td></tr>
 <tr><td>Extra Routing</td><td>$12</td></tr>
 <tr><td>Shipping (cheapest)</td><td>$8</td></tr>
-<tr><td>Total Estimate</td><td>$35</td></tr>
+<tr><td><b>Total Estimate</b></td><td><b>$35</b></td></tr>
 </table>
