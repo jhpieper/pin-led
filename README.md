@@ -19,7 +19,7 @@ surprisingly difficult.  The total cost, including the cheapest shipping option
 at jlcpcb was about $25 for five populated panels, for a total of 135 
 boards.
 
-<img src="/images/pin-led_pcb.jpg">
+<img src="/images/pin-led_panel.jpg">
 
 I tried a bunch of different options to cut the boards apart.  The best one was
 using a mini tablesaw with a thin 4 inch diamond blade (Amazon carries these 
@@ -32,7 +32,7 @@ the resulting breaks are not very clean.
 I also tried using a scroll saw, but the boards are so snmall that the blade
 guard was often not able to hold them down.  
 
-<img src="/images/pin-led_glass.jpg">
+<img width=60% src="/images/pin-led_glass.jpg">
 
 A more convenient option is the stamp hole layout, where the boards are cut 
 during manufacturing and can be broken apart easily.  
