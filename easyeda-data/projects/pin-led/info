@@ -1,0 +1,210 @@
+{
+  "uuid": "ace0f62b5da6bdfcbce7a11c76eba3e8",
+  "path": "Offline/pin-led",
+  "name": "pin-led",
+  "content": "",
+  "created_at": "2021-02-12 08:22:13",
+  "updated_at": "2021-03-26 09:04:27",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "8cd017fd5dbfd71b2ef9dd28f1f6380e",
+      "title": "pin-led-schematic",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "68699de834344af08b0eadb57b79518f": 4,
+        "6b4734eba1714e9a9bc44ea1445ea515": 1,
+        "ca94110f4544769d36adda4b0515e409": 1,
+        "f8869938632547dc837b0a31b6eee578": 2
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "WS2812B-B",
+          1,
+          "LED-SMD_4P-L5.0-W5.0-TL_WS2812B-B",
+          "LED2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "Worldsemi",
+            "BOM_Manufacturer Part": "WS2812B-B",
+            "BOM_Supplier Part": "C114586",
+            "BOM_JLCPCB SMD": "Yes",
+            "puuid": "b492c7f663c44f8ab2afd723c35ea2a4",
+            "uuid": "6b4734eba1714e9a9bc44ea1445ea515"
+          }
+        ],
+        [
+          "PAD",
+          4,
+          "PAD-60-31-RECT",
+          "U1,U2,U3,U5",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "7624caa41e4842a88e82aad6a0ba94a2",
+            "uuid": "68699de834344af08b0eadb57b79518f"
+          }
+        ],
+        [
+          "100nF",
+          1,
+          "C0402",
+          "C1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "CL05B104KO5NNNC",
+            "BOM_Manufacturer": "SAMSUNG",
+            "BOM_Supplier Part": "C1525",
+            "BOM_JLCPCB SMD": "Yes",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "f8eca159cd18407f9d5df374a1c2badf",
+            "uuid": "ca94110f4544769d36adda4b0515e409"
+          }
+        ],
+        [
+          "210-91-03GB01",
+          2,
+          "HDR-TH_3P-P2.54-V_A2541HWV-3P",
+          "H2,H3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C390679",
+            "BOM_Manufacturer": "PINREX",
+            "BOM_Manufacturer Part": "210-91-03GB01",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "011c7d7dcb0c47ddb2a63cb412392d4b",
+            "uuid": "f8869938632547dc837b0a31b6eee578"
+          }
+        ]
+      ],
+      "updateTime": 1616774387,
+      "createTime": 1613146933,
+      "histories": [],
+      "created_at": "2021-02-12 08:22:13",
+      "updated_at": "2021-03-26 08:59:47"
+    },
+    {
+      "uuid": "ef0edd672e1b377d1086ebec9d6d92bd",
+      "puuid": "ace0f62b5da6bdfcbce7a11c76eba3e8",
+      "title": "pin-led-pcb-3x7-stamphole",
+      "filename": "pin-led-pcb-3x7-stamphole.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "011c7d7dcb0c47ddb2a63cb412392d4b": 2,
+        "b492c7f663c44f8ab2afd723c35ea2a4": 1,
+        "f8eca159cd18407f9d5df374a1c2badf": 1,
+        "7624caa41e4842a88e82aad6a0ba94a2": 4
+      },
+      "BOM": [],
+      "updateTime": 1616774667,
+      "createTime": 1613146999,
+      "histories": [],
+      "created_at": "2021-02-12 08:23:19",
+      "updated_at": "2021-03-26 09:04:27"
+    },
+    {
+      "uuid": "67f0a1bc853b50830cb19483981e5280",
+      "puuid": "ace0f62b5da6bdfcbce7a11c76eba3e8",
+      "title": "pin-led-pcb-3x9-nocut",
+      "filename": "pin-led-pcb-3x9-nocut.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "7624caa41e4842a88e82aad6a0ba94a2": 108,
+        "f8eca159cd18407f9d5df374a1c2badf": 27,
+        "b492c7f663c44f8ab2afd723c35ea2a4": 27,
+        "011c7d7dcb0c47ddb2a63cb412392d4b": 54
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "WS2812B-B",
+          1,
+          "LED-SMD_4P-L5.0-W5.0-TL_WS2812B-B",
+          "LED2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "Worldsemi",
+            "BOM_Manufacturer Part": "WS2812B-B",
+            "BOM_Supplier Part": "C114586",
+            "BOM_JLCPCB SMD": "Yes",
+            "puuid": "b492c7f663c44f8ab2afd723c35ea2a4",
+            "uuid": "6b4734eba1714e9a9bc44ea1445ea515"
+          }
+        ],
+        [
+          "PAD",
+          4,
+          "PAD-60-31-RECT",
+          "U1,U2,U3,U5",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "7624caa41e4842a88e82aad6a0ba94a2",
+            "uuid": "68699de834344af08b0eadb57b79518f"
+          }
+        ],
+        [
+          "100nF",
+          1,
+          "C0402",
+          "C1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "CL05B104KO5NNNC",
+            "BOM_Manufacturer": "SAMSUNG",
+            "BOM_Supplier Part": "C1525",
+            "BOM_JLCPCB SMD": "Yes",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "f8eca159cd18407f9d5df374a1c2badf",
+            "uuid": "ca94110f4544769d36adda4b0515e409"
+          }
+        ],
+        [
+          "210-91-03GB01",
+          2,
+          "HDR-TH_3P-P2.54-V_A2541HWV-3P",
+          "H2,H3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C390679",
+            "BOM_Manufacturer": "PINREX",
+            "BOM_Manufacturer Part": "210-91-03GB01",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "011c7d7dcb0c47ddb2a63cb412392d4b",
+            "uuid": "f8869938632547dc837b0a31b6eee578"
+          }
+        ]
+      ],
+      "updateTime": 1613409970,
+      "createTime": 1613408313,
+      "histories": [],
+      "created_at": "2021-02-15 08:58:33",
+      "updated_at": "2021-02-15 09:26:10"
+    }
+  ],
+  "sort": [],
+  "title": "pin-led",
+  "foldername": "pin-led",
+  "schfilename": "pin-led.json",
+  "schfilemtime": 1616774530180
+}
