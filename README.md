@@ -67,7 +67,8 @@ Here is a short <a href="https://youtu.be/259xyBFJXGY">video</a> of the boards
 in action.  They are being driven by an Arduino Nano running the strandtest 
 neopixel demo.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/259xyBFJXGY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=259xyBFJXGY" target="_blank">
+<img src="http://img.youtube.com/vi/259xyBFJXGY/0.jpg" width="560" height="315"  border="10" /></a>
 
 # PCB design software
 I used <a href="https://easyeda.com/">EasyEDA</a> v6.4.7 to design these pcbs.
