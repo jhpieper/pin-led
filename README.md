@@ -3,15 +3,6 @@ A small RGB LED board that can be mounted on pinball playfields.
 The board uses neopixel LEDs (WS2812B), which can be chained using only three
 wires: power (5V), ground, and data.
 
-<style type="text/css">
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-</style>
-
 <img class="center" width="60%" src="/images/pin-led_pcbs.jpg">
 
 The boards are panelized into 100mm x 100mm pcbs for easy and inexpensive 
@@ -29,7 +20,7 @@ surprisingly difficult.  The total cost, including the cheapest shipping option
 at jlcpcb was about $25 for five populated panels, for a total of 135 
 boards.
 
-<img width="90%" align="middle" src="/images/pin-led_panel.jpg">
+<img width="60%" align="middle" src="/images/pin-led_panel.jpg">
 
 I tried a bunch of different options to cut the boards apart.  The best one was
 using a mini table saw with a thin 4 inch diamond blade (Amazon carries these 
@@ -45,7 +36,7 @@ the resulting breaks are not very clean.
 I also tried using a scroll saw, but the boards are so small that the blade
 guard was often not able to hold them down.  
 
-<img width="60%" align="middle" src="/images/pin-led_glass.jpg">
+<img width="30%" align="middle" src="/images/pin-led_glass.jpg">
 
 A more convenient option is the stamp hole layout, where the boards are cut 
 during manufacturing and can be broken apart easily.  
@@ -70,6 +61,7 @@ The photo shows the use of the pin-led boards in a
 machine.  Some connections use headers and dupont-style connector wires, while 
 others were soldered. The connector wires are much more convenient.  They make
 it easy to create the inital setup and make change later on.
+
 <img width="60%" align="middle" src="/images/pin-led_playfield.jpg">
 
 Here is a short <a href="https://youtu.be/259xyBFJXGY">video</a> of the boards
@@ -77,7 +69,7 @@ in action.  They are being driven by an Arduino Nano running the strandtest
 neopixel demo.
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=259xyBFJXGY" target="_blank">
-<img src="http://img.youtube.com/vi/259xyBFJXGY/0.jpg" width="560" height="315"  border="10" /></a>
+<img src="http://img.youtube.com/vi/259xyBFJXGY/0.jpg" width="560" height="315" /></a>
 
 # PCB design software
 I used <a href="https://easyeda.com/">EasyEDA</a> v6.4.7 to design these pcbs.
