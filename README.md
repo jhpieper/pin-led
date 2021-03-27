@@ -3,7 +3,8 @@ A small RGB LED board that can be mounted on pinball playfields.
 The board uses neopixel LEDs (WS2812B), which can be chained using only three
 wires: power (5V), ground, and data.
 
-<center><img width="60%" src="/images/pin-led_pcbs.jpg"></center>
+<p style="text-align:center;"><img width="60%" src="/images/pin-led_pcbs.jpg">
+</p>
 
 The boards are panelized into 100mm x 100mm pcbs for easy and inexpensive 
 ordering from <a href=jlcpcb.com>jlcpcb.com</a> (or other fabs).  I recommend
