@@ -3,7 +3,7 @@ A small RGB LED board that can be mounted on pinball playfields.
 The board uses neopixel LEDs (WS2812B), which can be chained using only three
 wires: power (5V), ground, and data.
 
-<img width="90%" align="middle" src="/images/pin-led_pcbs.jpg">
+<center><img width="60%" src="/images/pin-led_pcbs.jpg"></center>
 
 The boards are panelized into 100mm x 100mm pcbs for easy and inexpensive 
 ordering from <a href=jlcpcb.com>jlcpcb.com</a> (or other fabs).  I recommend
@@ -54,6 +54,20 @@ Still a great deal overall and no mess cutting the boards yourself.
 My actual preferred option would have been a v-cut panel, but jlcpcb does not
 offer SMT assembly for v-cut panels, as they may warp during the reflow 
 soldering.
+
+# Demo in a Stern Stars pinball machine
+The photo shows the use of the pin-led boards in a 
+<a href="https://www.ipdb.org/machine.cgi?id=2366">Stern Stars</a> pinball 
+machine.  Some connections use headers and dupont-style connector wires, while 
+others were soldered. The connector wires are much more convenient.  They make
+it easy to create the inital setup and make change later on.
+<img width="60%" align="middle" src="/images/pin-led_playfield.jpg">
+
+Here is a short <a href="https://youtu.be/259xyBFJXGY">video</a> of the boards
+in action.  They are being driven by an Arduino Nano running the strandtest 
+neopixel demo.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/259xyBFJXGY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # PCB design software
 I used <a href="https://easyeda.com/">EasyEDA</a> v6.4.7 to design these pcbs.
